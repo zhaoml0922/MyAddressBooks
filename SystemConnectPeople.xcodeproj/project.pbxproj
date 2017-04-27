@@ -16,6 +16,10 @@
 		B1E95D291EAF4A9800E68550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E95D271EAF4A9800E68550 /* LaunchScreen.storyboard */; };
 		B1E95D341EAF4A9800E68550 /* SystemConnectPeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D331EAF4A9800E68550 /* SystemConnectPeopleTests.m */; };
 		B1E95D3F1EAF4A9800E68550 /* SystemConnectPeopleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D3E1EAF4A9800E68550 /* SystemConnectPeopleUITests.m */; };
+		B1E95D501EAF4B8700E68550 /* ConnectPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D4F1EAF4B8700E68550 /* ConnectPeopleViewController.m */; };
+		B1E95D531EAF4F9700E68550 /* ConnectPeopleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D521EAF4F9700E68550 /* ConnectPeopleHelper.m */; };
+		B1E95D561EAF4FB600E68550 /* FXConnectPeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D551EAF4FB600E68550 /* FXConnectPeopleModel.m */; };
+		B1E95D591EB04D2600E68550 /* FXConnectIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E95D581EB04D2600E68550 /* FXConnectIndexView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,15 @@
 		B1E95D3A1EAF4A9800E68550 /* SystemConnectPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemConnectPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E95D3E1EAF4A9800E68550 /* SystemConnectPeopleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemConnectPeopleUITests.m; sourceTree = "<group>"; };
 		B1E95D401EAF4A9800E68550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E95D4D1EAF4AB900E68550 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B1E95D4E1EAF4B8700E68550 /* ConnectPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectPeopleViewController.h; sourceTree = "<group>"; };
+		B1E95D4F1EAF4B8700E68550 /* ConnectPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectPeopleViewController.m; sourceTree = "<group>"; };
+		B1E95D511EAF4F9700E68550 /* ConnectPeopleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectPeopleHelper.h; sourceTree = "<group>"; };
+		B1E95D521EAF4F9700E68550 /* ConnectPeopleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectPeopleHelper.m; sourceTree = "<group>"; };
+		B1E95D541EAF4FB600E68550 /* FXConnectPeopleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXConnectPeopleModel.h; sourceTree = "<group>"; };
+		B1E95D551EAF4FB600E68550 /* FXConnectPeopleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXConnectPeopleModel.m; sourceTree = "<group>"; };
+		B1E95D571EB04D2600E68550 /* FXConnectIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXConnectIndexView.h; sourceTree = "<group>"; };
+		B1E95D581EB04D2600E68550 /* FXConnectIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXConnectIndexView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +118,17 @@
 			children = (
 				B1E95D191EAF4A9800E68550 /* AppDelegate.h */,
 				B1E95D1A1EAF4A9800E68550 /* AppDelegate.m */,
+				B1E95D4E1EAF4B8700E68550 /* ConnectPeopleViewController.h */,
+				B1E95D4F1EAF4B8700E68550 /* ConnectPeopleViewController.m */,
+				B1E95D511EAF4F9700E68550 /* ConnectPeopleHelper.h */,
+				B1E95D521EAF4F9700E68550 /* ConnectPeopleHelper.m */,
+				B1E95D541EAF4FB600E68550 /* FXConnectPeopleModel.h */,
+				B1E95D551EAF4FB600E68550 /* FXConnectPeopleModel.m */,
+				B1E95D571EB04D2600E68550 /* FXConnectIndexView.h */,
+				B1E95D581EB04D2600E68550 /* FXConnectIndexView.m */,
 				B1E95D1C1EAF4A9800E68550 /* ViewController.h */,
 				B1E95D1D1EAF4A9800E68550 /* ViewController.m */,
+				B1E95D4D1EAF4AB900E68550 /* PrefixHeader.pch */,
 				B1E95D1F1EAF4A9800E68550 /* Main.storyboard */,
 				B1E95D251EAF4A9800E68550 /* Assets.xcassets */,
 				B1E95D271EAF4A9800E68550 /* LaunchScreen.storyboard */,
@@ -210,6 +232,7 @@
 				TargetAttributes = {
 					B1E95D121EAF4A9800E68550 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 458ECPNL4V;
 						ProvisioningStyle = Automatic;
 					};
 					B1E95D2E1EAF4A9800E68550 = {
@@ -278,8 +301,12 @@
 			files = (
 				B1E95D241EAF4A9800E68550 /* SystemConnectPeople.xcdatamodeld in Sources */,
 				B1E95D1E1EAF4A9800E68550 /* ViewController.m in Sources */,
+				B1E95D591EB04D2600E68550 /* FXConnectIndexView.m in Sources */,
 				B1E95D1B1EAF4A9800E68550 /* AppDelegate.m in Sources */,
+				B1E95D531EAF4F9700E68550 /* ConnectPeopleHelper.m in Sources */,
 				B1E95D181EAF4A9800E68550 /* main.m in Sources */,
+				B1E95D501EAF4B8700E68550 /* ConnectPeopleViewController.m in Sources */,
+				B1E95D561EAF4FB600E68550 /* FXConnectPeopleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 458ECPNL4V;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SystemConnectPeople/PrefixHeader.pch";
 				INFOPLIST_FILE = SystemConnectPeople/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.SystemConnectPeople;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxyinternet.galaxystars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,9 +469,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 458ECPNL4V;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SystemConnectPeople/PrefixHeader.pch";
 				INFOPLIST_FILE = SystemConnectPeople/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dididoctor.doctor.SystemConnectPeople;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxyinternet.galaxystars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -511,6 +544,7 @@
 				B1E95D451EAF4A9800E68550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1E95D461EAF4A9800E68550 /* Build configuration list for PBXNativeTarget "SystemConnectPeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +553,7 @@
 				B1E95D481EAF4A9800E68550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1E95D491EAF4A9800E68550 /* Build configuration list for PBXNativeTarget "SystemConnectPeopleUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +562,7 @@
 				B1E95D4B1EAF4A9800E68550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
